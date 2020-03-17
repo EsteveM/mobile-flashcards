@@ -30,7 +30,7 @@ These are the steps to be followed to further develop and/or test this project:
 ![expo](/ScreenShots/expo.png)
 * Thirdly, the application can be manually tested:
     * The primary view, seen when the app loads, is a list of created decks which includes the name of each deck and the number of cards.
-    ![simulator1](/ScreenShots/simulator1.png)
+    ![simulator12](/ScreenShots/simulator12.png)
     * Pressing on a deck in the list should generate an animation, and the app should route to an individual deck view. We can then see that the individual deck view includes the deck title, the number of cards in the deck, an option to start a quiz for that deck, an option to add a new question to the deck, and an option to delete the deck. The last one is an optional and interesting addition to this project.
     ![simulator2](/ScreenShots/simulator2.png)
     * Pressing the 'Start a Quiz' or 'Add Card' button properly routes to the correct views for those activities. The New Question view includes a form with fields for a question and answer, and a submit button. The Quiz view starts with a question from the selected deck. The question is displayed, along with a button to show the answer. Buttons are included to allow the student to mark their guess as 'Correct' or 'Incorrect'. The view displays the number of questions remaining.
